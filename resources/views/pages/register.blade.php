@@ -1,4 +1,4 @@
-<x-layout.blank>
+<x-layout.blank :pageTitle="$pageTitle ?? null">
     @php($input = 'focus-ring h-11 w-full rounded-lg border border-themed bg-gray-50 px-3 text-sm text-body outline-none focus:border-brand-300 dark:bg-gray-900')
     <div x-data="{ loading: false, accepted: false }">
         <x-ui.auth-shell titleKey="auth.registerTitle" subtitleKey="auth.registerSubtitle">

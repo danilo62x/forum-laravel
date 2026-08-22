@@ -1,4 +1,4 @@
-<x-layout.public>
+<x-layout.public :pageTitle="$pageTitle ?? null">
     <div x-data="homePage()">
         {{-- Hero com a busca em destaque --}}
         <section class="relative overflow-hidden border-b border-themed bg-gradient-to-br from-brand-50 via-white to-brand-100 dark:from-gray-900 dark:via-gray-dark dark:to-gray-900">

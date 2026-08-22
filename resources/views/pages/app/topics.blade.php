@@ -1,4 +1,4 @@
-<x-layout.app>
+<x-layout.app :pageTitle="$pageTitle ?? null">
     @php($field = 'focus-ring w-full rounded-lg border border-themed bg-transparent px-3.5 py-2.5 text-sm text-body placeholder:text-muted')
     @php($iconBtn = 'flex h-8 w-8 items-center justify-center rounded-lg border border-themed text-muted transition hover:text-brand-500')
 

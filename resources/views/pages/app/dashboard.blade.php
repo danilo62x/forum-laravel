@@ -1,4 +1,4 @@
-<x-layout.app>
+<x-layout.app :pageTitle="$pageTitle ?? null">
     <div x-data="dashboardPage()">
         <x-app.page-header title="dashboard.title" subtitle="dashboard.subtitle">
             <x-slot:action>

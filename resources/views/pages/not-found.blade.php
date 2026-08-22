@@ -1,4 +1,4 @@
-<x-layout.blank>
+<x-layout.blank :pageTitle="$pageTitle ?? null">
     {{-- Mirrors forum/react pages/app/NotFoundPage.tsx --}}
     <div class="flex min-h-screen flex-col items-center justify-center px-4 text-center"
         style="background-color: var(--tx-body-bg)" x-data>

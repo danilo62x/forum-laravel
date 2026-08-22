@@ -1,4 +1,4 @@
-<x-layout.public>
+<x-layout.public :pageTitle="$pageTitle ?? null">
     <div class="mx-auto max-w-5xl px-4 py-10 sm:px-6 lg:px-8"
         x-data="searchPage(@js($query), @js($categoryParam), @js($tagParam), @js($unansweredParam))">
         <h1 class="text-2xl font-bold text-heading" data-i18n="search.title" x-text="$t('search.title')"></h1>

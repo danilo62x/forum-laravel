@@ -1,4 +1,4 @@
-<x-layout.blank>
+<x-layout.blank :pageTitle="$pageTitle ?? null">
     <div x-data="{ showPassword: false, remember: true, loading: false }">
         <x-ui.auth-shell titleKey="auth.loginTitle" subtitleKey="auth.loginSubtitle">
             <form method="POST" action="{{ route('login.submit') }}" class="space-y-5" @submit="loading = true">

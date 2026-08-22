@@ -1,4 +1,4 @@
-<x-layout.public>
+<x-layout.public :pageTitle="$pageTitle ?? null">
     @if (! $category)
         <div class="mx-auto max-w-3xl px-4 py-20 sm:px-6 lg:px-8">
             <x-ui.empty-state icon="folder" titleKey="category.notFoundTitle" descKey="category.notFoundDesc">

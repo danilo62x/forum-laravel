@@ -1,4 +1,4 @@
-<x-layout.app>
+<x-layout.app :pageTitle="$pageTitle ?? null">
     @php($iconBtn = 'flex h-8 w-8 items-center justify-center rounded-lg border border-themed text-muted transition hover:text-brand-500')
 
     <div x-data="membersPage()">

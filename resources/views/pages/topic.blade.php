@@ -1,4 +1,4 @@
-<x-layout.public>
+<x-layout.public :pageTitle="$pageTitle ?? null">
     <div x-data="topicPage(@js($slug))">
         {{-- Tópico inexistente --}}
         <template x-if="!topic">

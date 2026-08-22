@@ -1,4 +1,4 @@
-<x-layout.public>
+<x-layout.public :pageTitle="$pageTitle ?? null">
     @php($sections = [
         ['key' => 's1', 'icon' => 'users'],
         ['key' => 's2', 'icon' => 'message-square'],

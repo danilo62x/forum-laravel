@@ -1,4 +1,4 @@
-<x-layout.app>
+<x-layout.app :pageTitle="$pageTitle ?? null">
     <div x-data="reportsPage()">
         <x-app.page-header title="reports.title" subtitle="reports.subtitle" :crumbs="[
             ['labelKey' => 'appNav.dashboard', 'href' => route('dashboard')],

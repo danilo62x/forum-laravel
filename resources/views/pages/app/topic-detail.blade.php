@@ -1,4 +1,4 @@
-<x-layout.app>
+<x-layout.app :pageTitle="$pageTitle ?? null">
     @php($actionBtn = 'inline-flex items-center gap-1.5 rounded-lg border border-themed px-3 py-2 text-xs font-medium text-body transition hover:bg-gray-50 dark:hover:bg-gray-800')
 
     <div x-data="topicDetailPage({{ (int) $topicId }})">
