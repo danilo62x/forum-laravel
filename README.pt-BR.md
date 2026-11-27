@@ -6,8 +6,6 @@
 
 Um fórum de comunidade com os dois lados, feito em Laravel 11, Blade, Alpine.js e Tailwind CSS v4: o fórum que os membros leem e a mesa de moderação que o mantém saudável. O visitante encontra categorias, tópicos com respostas aninhadas em dois níveis, votos para cima e para baixo, melhor resposta que marca o tópico como resolvido, perfis com reputação e distintivos, e uma busca que mostra o trecho que casou. O moderador tem fila de denúncias que salta direto para a resposta denunciada, ações de fixar/fechar/mover, CRUD de categorias e gestão de membros com silenciar e banir. Reputação, o score de "em alta" e todos os distintivos são calculados a partir dos dados, nunca gravados — então os números não divergem. Seis categorias, vinte e dois tópicos e sessenta e duas respostas vêm como dados de exemplo, persistidos em `localStorage`, sem backend nenhum.
 
-Prévia ao vivo: https://template.dev.br/preview/forum-laravel/
-
 ## Telas incluídas
 
 15 telas, cobrindo o site público e a área autenticada:
@@ -99,11 +97,7 @@ O mesmo sistema existe em cinco tecnologias, com as mesmas telas e a mesma ident
 - Angular 19: https://github.com/danilo62x/forum-angular
 - HTML estático: https://github.com/danilo62x/forum-html
 
-O catálogo completo, de templates grátis e pagos, está em https://template.dev.br
-
-## Apoie este projeto
-
-Este template é gratuito e licenciado sob MIT. Se ele te poupou tempo, você pode apoiar o trabalho com uma doação em https://template.dev.br/doar?template=forum-laravel
+Mais templates gratuitos (painéis admin, sistemas por segmento e apps Flutter): https://github.com/danilo62x?tab=repositories
 
 ## Licença
 

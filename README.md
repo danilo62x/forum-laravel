@@ -6,8 +6,6 @@
 
 A community forum with both of its sides, built with Laravel 11, Blade, Alpine.js and Tailwind CSS v4: the board that readers and members see, and the moderation desk that keeps it healthy. Visitors get categories, topics with two-level threaded replies, up and down votes, a best answer that marks the topic solved, member profiles with reputation and badges, and a search that shows the matching excerpt. Moderators get a report queue that jumps straight to the reported reply, pin/close/move actions, category CRUD and member management with muting and banning. Reputation, the trending score and every badge are computed from the data rather than stored, so the numbers never drift. Six categories, twenty-two topics and sixty-two replies ship as seed data, persisted to `localStorage`, so nothing needs a backend.
 
-Live preview: https://template.dev.br/preview/forum-laravel/
-
 ## Pages included
 
 15 screens, covering the public site and the authenticated area:
@@ -99,11 +97,7 @@ The same system exists in five stacks, all sharing the screens and the visual id
 - Angular 19: https://github.com/danilo62x/forum-angular
 - Static HTML: https://github.com/danilo62x/forum-html
 
-The full catalog of free and paid templates is at https://template.dev.br
-
-## Support this project
-
-This template is free and MIT licensed. If it saves you time, you can support the work with a donation at https://template.dev.br/doar?template=forum-laravel
+More free templates (admin dashboards, vertical systems and Flutter apps): https://github.com/danilo62x?tab=repositories
 
 ## License
 
